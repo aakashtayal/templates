@@ -147,16 +147,4 @@ It contains templates for automation
 <!-- RDS fires events (dashed return) -->
 <path class="dashed" d="M443 360 L443 390 L107 390 L107 468" marker-end="url(#arrow)"/>
 
-<!-- Legend -->
-<rect x="20" y="562" width="14" height="14" rx="3" class="src-outer" stroke-width="0.5"/>
-<text class="label" x="40" y="573">Source account components</text>
-
-<rect x="200" y="562" width="14" height="14" rx="3" class="dst-outer" stroke-width="0.5"/>
-<text class="label" x="220" y="573">Destination account components</text>
-
-<rect x="430" y="562" width="14" height="14" rx="3" class="auto-outer" stroke-width="0.5"/>
-<text class="label" x="450" y="573">Automation (event-driven)</text>
-
-<!-- Traffic flow -->
-<text class="label" x="340" y="600" text-anchor="middle">Traffic flow: EC2 → Interface Endpoint → PrivateLink → NLB → RDS</text>
 </svg>
